@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../test/images
+test: ../test/images
+
+nc: 1
+names: ['tomato']
+
+roboflow:
+  workspace: fadli-firmansyah-andrean
+  project: tomato-counting-q5hfg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fadli-firmansyah-andrean/tomato-counting-q5hfg/dataset/1
